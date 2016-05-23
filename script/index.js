@@ -13,7 +13,7 @@ jQuery(function($) {
     });
 
     function issueConcat(str) {
-        var strArray = str.split(/, \s*/g);
+        var strArray = str.split(/ \s*/g);
         var output = '';
 
         for (var i = 0 ; i < strArray.length ; i++) {
@@ -28,7 +28,7 @@ jQuery(function($) {
     }
 
     function labelConcat(str) {
-        var strArray = str.split(/, \s*/g);
+        var strArray = str.split(/ \s*/g);
         var output = '';
 
         for (var i = 0 ; i < strArray.length ; i++) {
